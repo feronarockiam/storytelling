@@ -7,7 +7,7 @@ const app = express();
 // Middleware to parse JSON bodies
 app.use(bodyParser.json());
 
-const openAI_apiKey = "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";
+const openAI_apiKey = "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";
 const openai = new OpenAI({ apiKey: openAI_apiKey });
 
 app.post('/image', async (req, res) => {
